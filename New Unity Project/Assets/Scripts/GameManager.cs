@@ -248,7 +248,7 @@ public class GameManager : MonoBehaviour
            
         }
 
-        if (LeverScript.isDown == true && LeverScript1.isDown2 == false && LeverScript2.isDown3 == false && LeverScript3.isDown4 == true && LeverScript4.isDown5 == false)
+        if (LeverScript.isDown == false && LeverScript1.isDown2 == true && LeverScript2.isDown3 == true && LeverScript3.isDown4 == false && LeverScript4.isDown5 == false)
         {
             doorExitRed.SetActive(false);
             doorExitGreen.SetActive(true);
@@ -270,7 +270,7 @@ public class GameManager : MonoBehaviour
 
 
 
-        if(LeverScript5.isDown6 == false && LeverScript4.isDown5 == false)
+        if(LeverScript1.isDown2 == false && LeverScript5.isDown6 == false)
         {
             redLight.SetActive(false);
             greenLight.SetActive(true);
